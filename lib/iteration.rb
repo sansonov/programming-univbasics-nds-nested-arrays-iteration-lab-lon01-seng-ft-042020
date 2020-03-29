@@ -8,11 +8,11 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   y = 0
-  new = []
+  one = []
   while y < src.count do
   x = 0
-    while x < spice_rack[row_index].count do
-    new.push(src[y][x])
+    while x < src.count do
+    one.push(src[y][x])
     x += 1
     end
   y += 1
