@@ -12,15 +12,16 @@ def join_ingredients(src)
     [ing3,ing4]
     ]
     
-  col = 0
-  while col < all.count do
-    linha = 0
-    new = []
-    while linha < all.count do
-    
-    linha +=1
+  x = 0
+  while x < all.count do
+    y = 0
+    a = []
+    b = []
+    while y < all.count do
+    a[x][y] = all[x][y] 
+    y +=1
     end
-    col =+1
+    x =+1
   end
   #return "I love #{element1} and #{element2} on my pizza"
 end
