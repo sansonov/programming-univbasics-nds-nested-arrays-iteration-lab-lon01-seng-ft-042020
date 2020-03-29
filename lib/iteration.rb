@@ -7,18 +7,11 @@ def join_ingredients(src)
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
   
-  all = [
-    [ing1,ing2],
-    [ing3,ing4]
-    ]
-    
   x = 0
-  while x < all.count do
+  while x < src.count do
     y = 0
-    a = []
-    b = []
-    while y < all.count do
-    a[x][y] = all[x][y] 
+    while y < src.count do
+   
     y +=1
     end
     x =+1
