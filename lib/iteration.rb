@@ -16,7 +16,11 @@ def join_ingredients(src)
     x += 1
     end
   y += 1
-  end 
+  end
+  
+  new = []
+  
+  
 end
 
 def find_greater_pair(src)
