@@ -1,16 +1,12 @@
 def join_ingredients(src)
   
   y = 0
-  one = []
+  result = []
   while y < src.count do
-  x = 0
-    while x < src.count do
-    result.push("I love #{src[x][x]} and #{src[x][y]} on my pizza")
-    x += 1
-    end
-  y += 1
+    result.push("I love #{src[y][0]} and #{src[y][1]} on my pizza")
+    y += 1
   end
-  
+  return result
 end
 
 def find_greater_pair(src)
