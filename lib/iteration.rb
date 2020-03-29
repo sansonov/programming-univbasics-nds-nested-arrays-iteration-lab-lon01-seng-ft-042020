@@ -10,6 +10,7 @@ def join_ingredients(src)
     end
   y += 1
   end
+  for 
   
 end
 
