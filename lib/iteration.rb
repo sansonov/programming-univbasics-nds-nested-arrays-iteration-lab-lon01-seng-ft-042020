@@ -17,7 +17,7 @@ def join_ingredients(src)
     linha = 0
     new = []
     while linha < all.count do
-      new.push("I love #{all[col][linha]}  and #{all[col][linha]} on my pizza")  
+      new.push("I love #{all[col][linha]} and #{all[col][linha+1]} on my pizza")  
     end
     col =+1
   end
