@@ -16,7 +16,7 @@ def join_ingredients(src)
   while col < together.count do
     linha = 0
     while linha < together.count do
-    
+    puts ""
     end
     col =+1
   end
