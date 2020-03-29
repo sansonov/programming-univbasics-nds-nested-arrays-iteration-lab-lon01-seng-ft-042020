@@ -16,7 +16,8 @@ def join_ingredients(src)
   while col < together.count do
     linha = 0
     while linha < together.count do
-    puts ""
+    puts "I love #{together[col][linha
+    ]} and #{together[col][linha+1]} on my pizza"
     end
     col =+1
   end
