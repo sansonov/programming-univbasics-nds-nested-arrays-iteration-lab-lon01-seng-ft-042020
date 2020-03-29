@@ -18,10 +18,10 @@ def find_greater_pair(src)
      gd.push(src[y][0]) 
     else
     gd.push(src[y][1])
-  end
+    end
   y += 1
 end
-
+return gd
 end
 
 def total_even_pairs(src)
