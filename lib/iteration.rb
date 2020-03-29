@@ -8,8 +8,8 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   all = [
-    [a,b],
-    [c,d]
+    [ing1,ing2],
+    [ing3,ing4]
     ]
     
   col = 0
@@ -17,11 +17,11 @@ def join_ingredients(src)
     linha = 0
     new = []
     while linha < all.count do
-      new.push("I love #{all[col][linha]} and #{all[col][linha+1]} on my pizza")  
+    
+    linha +=1
     end
     col =+1
   end
-  
   #return "I love #{element1} and #{element2} on my pizza"
 end
 
