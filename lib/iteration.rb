@@ -12,9 +12,15 @@ def join_ingredients(src)
     [element3, element4]
     ]
   col = 0
-  while col < together.count
+  while col < together.count do
+    linha = 0
+    while linha < together.count do
+    puts "I love #{element1} and #{element2} on my pizza"
+    end
+    col =+1
+  end
   
-  return "I love #{element1} and #{element2} on my pizza"
+  #return "I love #{element1} and #{element2} on my pizza"
 end
 
 def find_greater_pair(src)
