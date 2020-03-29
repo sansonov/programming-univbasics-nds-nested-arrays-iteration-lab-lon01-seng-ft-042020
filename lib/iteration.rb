@@ -5,7 +5,7 @@ def join_ingredients(src)
   while y < src.count do
   x = 0
     while x < src.count do
-    one.push("src[y][x]")
+    one.push("I love #{src[x][x]} and element2 on #{src[][]}")
     x += 1
     end
   y += 1
