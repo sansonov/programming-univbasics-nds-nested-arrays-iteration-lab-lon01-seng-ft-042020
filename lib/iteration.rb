@@ -8,14 +8,15 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   together = [
-    [element1, element2],
-    [element3, element4]
+    [a,b],
+    [c,d]
     ]
+    
   col = 0
   while col < together.count do
     linha = 0
     while linha < together.count do
-    puts "I love #{element1} and #{element2} on my pizza"
+    
     end
     col =+1
   end
