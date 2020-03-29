@@ -12,7 +12,7 @@ def join_ingredients(src)
     [element3, element4]
     ]
   col = 0
-  while col < together
+  while col < together.count
   
   return "I love #{element1} and #{element2} on my pizza"
 end
