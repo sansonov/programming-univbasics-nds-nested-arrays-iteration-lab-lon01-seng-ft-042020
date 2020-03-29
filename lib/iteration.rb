@@ -11,23 +11,23 @@ end
 
 def find_greater_pair(src)
   
-outer = []
-col = 0
-while col < src.count do
-  x = 0
-  inner = []
-  while x < src[x].count do
-    # How to read the following line of code:
-    #   Array at row_index
-    #   Element of the inner array at element_index
-    #   The first character of that element...
-    if spice_rack[row_index][element_index][0] == "P"
-      inner_results << spice_rack[row_index][element_index]
+  outer = []
+  y = 0
+  while y < src.count do
+    if src[y][0] > src[y][1]
+      
     end
-    element_index += 1
+    #x = 0
+    #inner = []
+    #while x < src[y].count do
+    
+    #if src[y][x][0] == "P"
+    #inner.push(src[y][x]) 
+    #end
+  #x += 1
   end
-  outer_results << inner_results
-  row_index += 1
+  outer.push(inner)
+  y += 1
 end
 
 end
