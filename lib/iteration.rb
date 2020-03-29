@@ -11,22 +11,15 @@ end
 
 def find_greater_pair(src)
   
-  outer = []
+  gd = []
   y = 0
   while y < src.count do
     if src[y][0] > src[y][1]
-      
+     gd.push(src[y][0]) 
     end
-    #x = 0
-    #inner = []
-    #while x < src[y].count do
-    
-    #if src[y][x][0] == "P"
-    #inner.push(src[y][x]) 
-    #end
-  #x += 1
+    else
+    gd.push(src[y][1])
   end
-  outer.push(inner)
   y += 1
 end
 
