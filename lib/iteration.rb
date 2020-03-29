@@ -16,7 +16,6 @@ def find_greater_pair(src)
   while y < src.count do
     if src[y][0] > src[y][1]
      gd.push(src[y][0]) 
-    end
     else
     gd.push(src[y][1])
   end
